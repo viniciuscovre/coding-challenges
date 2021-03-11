@@ -13,7 +13,8 @@
 
 const str = 'one times two plus four';
 
-const eval = str => {
+// SOLUTION DURING THE INTERVIEW / CHALLENGE
+const stringCalculator = str => {
   let tokens = str.split(' ')
   let result
   const stack = []
@@ -54,4 +55,4 @@ const eval = str => {
   return result
 }
 
-eval(str)
+stringCalculator(str)
