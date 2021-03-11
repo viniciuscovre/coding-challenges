@@ -40,7 +40,7 @@ const stringCalculator = str => {
     }
 
     if (token === 'times' || token === 'plus') {
-      stack.push(numbers[token])
+      stack.push(token)
       continue
     }
 
@@ -55,4 +55,4 @@ const stringCalculator = str => {
   return result
 }
 
-stringCalculator(str)
+console.log(stringCalculator(str))
