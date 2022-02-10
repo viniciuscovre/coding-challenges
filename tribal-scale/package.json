@@ -1,0 +1,16 @@
+{
+  "name": "tribal-scale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap-prettify test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-prettify": "^0.0.2",
+    "tape": "^5.5.0"
+  }
+}
